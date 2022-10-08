@@ -16,6 +16,20 @@ module.exports = {
       '4xl': ['48px', '56px'],
     },
     extend: {
+      colors: {
+        black: '#BB2E57',
+        white: '#F4F6FF',
+        gray: {
+          300: '#B1B4BD',
+          500: '#91949D',
+          700: '#696C74'
+        },
+        red: {
+          300: '#BB2E57',
+          500: '#AF053F',
+          700: '#300219'
+        },
+      }
     },
   },
   plugins: [],

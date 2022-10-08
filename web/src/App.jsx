@@ -1,13 +1,7 @@
-const Title = ({ children, ...props }) => (
-  <h1 {...props}>{children}</h1>
-)
-
 export function App() {
   return (
-    <div className="bg-red-500">
-      <Title>Olá mundo</Title>
-      <Title>Olá mundo 2</Title>
-      <Title>Olá mundo 3</Title>
+    <div className="h-screen bg-red-700 text-white">
+      <h1 className="text-3xl">Dê o seu palpite na Copa do Mundo do Catar 2022!</h1>
     </div>
   )
 }
