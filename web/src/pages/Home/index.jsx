@@ -15,10 +15,10 @@ export function Home() {
         <div className="md:flex-1 flex flex-col space-y-6">
           <h1 className="text-3xl text-center md:text-left font-bold">Dê o seu palpite na Copa do Mundo do Catar 2022!</h1>
           
-          <a href="/signup" className="text-red-700 bg-white text-lg px-8 py-4 rounded-xl">
+          <a href="/signup" className="text-center text-red-700 bg-white text-lg px-8 py-4 rounded-xl">
             Criar minha conta
           </a>
-          <a href="/login" className="text-white border border-white text-xl px-8 py-4 rounded-xl">
+          <a href="/login" className="text-center text-white border border-white text-xl px-8 py-4 rounded-xl">
             Fazer login
           </a>
         </div>

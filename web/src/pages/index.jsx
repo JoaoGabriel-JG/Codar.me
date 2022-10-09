@@ -5,7 +5,7 @@ import {
   } from "react-router-dom"
 
 import { Home } from './Home'
-import { login } from './Login'
+import { Login } from './Login'
 
 
   const router = createBrowserRouter([
