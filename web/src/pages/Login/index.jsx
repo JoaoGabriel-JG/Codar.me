@@ -1,3 +1,10 @@
+const input = ({ name, type, placeholder, label }) => {
+    <div className="flex flex-col">
+        <label htmlFor="{name}">{label}</label>
+        <input name="{name}" id="{name}" type="text" placeholder="Digite seu e-mail" />
+    </div>
+}
+
 export const Login = () => {
     return (
     <div>
@@ -11,11 +18,15 @@ export const Login = () => {
             </div>
 
             <form>
-                <label htmlFor="email">Seu e-mail</label>
-                <input name="email" id="email" type="text" placeholder="Digite seu e-mail" />
+                <div className="flex flex-col">
+                    <label htmlFor="email">Seu e-mail</label>
+                    <input name="email" id="email" type="text" placeholder="Digite seu e-mail" />
+                </div>
 
-                <label htmlFor="password">Sua senha</label>
-                <input name="password" id="password" type="password" placeholder="Digite sua senha" />
+                <div className="flex flex-col">
+                    <label htmlFor="password">Sua senha</label>
+                    <input name="password" id="password" type="password" placeholder="Digite sua senha" />
+                </div>
             </form>
         </main>
     </div>
