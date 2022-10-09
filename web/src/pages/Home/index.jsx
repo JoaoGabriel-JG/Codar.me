@@ -18,6 +18,7 @@ export function Home() {
           <a href="/signup" className="text-center text-red-700 bg-white text-lg px-8 py-4 rounded-xl">
             Criar minha conta
           </a>
+          
           <a href="/login" className="text-center text-white border border-white text-xl px-8 py-4 rounded-xl">
             Fazer login
           </a>
