@@ -1,6 +1,6 @@
 import { Icon, Input } from '~/components'
 
-export const Login = () => {
+export const Signup = () => {
     return (
     <div>
         <header className="p-4 border-b border-red-300">
@@ -14,10 +14,24 @@ export const Login = () => {
                 <a href="/">
                 <Icon name="back" className="h-6" />
                 </a>
-                <h2 className="text-xl font-bold">Entre na sua conta</h2>
+                <h2 className="text-xl font-bold">Crie sua conta</h2>
             </div>
 
             <form className="p-4 space-y-6">
+                <Input 
+                    type="text"
+                    name="name"
+                    label="Seu nome"
+                    placeholder="Digite seu nome"
+                />
+
+                <Input 
+                    type="password"
+                    name="username"
+                    label="Seu usuário"
+                    placeholder="Digite um nome de usuário"
+                />
+
                 <Input 
                     type="text"
                     name="email"
@@ -32,8 +46,8 @@ export const Login = () => {
                     placeholder="Digite sua senha"
                 />
 
-            <a href='/dashboard' className="w-full text-center text-white bg-red-500 px-6 py-3 rounded-xl">
-                Entrar
+            <a href='/dashboard' className="block w-full text-center text-white bg-red-500 px-6 py-3 rounded-xl">
+                Criar minha conta
             </a>
             </form>
         </main>
