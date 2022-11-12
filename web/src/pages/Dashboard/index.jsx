@@ -1,4 +1,4 @@
-import { Icon } from '~/components'
+import { Icon, Card } from '~/components'
 
 export const Dashboard = () => (
     <div className="">
@@ -22,7 +22,11 @@ export const Dashboard = () => (
 
             <section id='content' className="container max-w-3xl p-4">
 
-                
+                <Card 
+                timeA={{ slug: 'sui' }}
+                timeB={{ slug: 'cam' }}
+                match={{ time: '7:00' }}
+                />
 
             </section>
         </main>
