@@ -1,4 +1,4 @@
-export const Card = ({ timeA, timeB, match }) => {
+export const Card = ({ timeA, timeB, match }) => (
     <div className="rounded-xl border border-gray-300 p-4 text-center space-y-4">
         <span className="text-xs md: text-base text-gray-700 font-bold">{ match.time }</span>
 
@@ -15,4 +15,4 @@ export const Card = ({ timeA, timeB, match }) => {
             <span className="uppercase">{ timeB.slug }</span>
         </div>
     </div> 
-}
+)
